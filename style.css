@@ -1,0 +1,157 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: "Spartan", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+/* header-section== */
+.header-content {
+}
+.header-content span {
+  color: #3361ed;
+}
+.header-content h2 {
+  font-weight: 700;
+  margin: 15px 0 35px 0;
+  position: relative;
+}
+.header-content h2::after {
+  content: "";
+  position: absolute;
+  background-color: #3361ed;
+  height: 2px;
+  width: 9%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -17px;
+}
+.header-content p {
+  font-size: 17px;
+}
+
+/*==== banner-section==== */
+
+.banner-content {
+}
+.banner-image {
+  position: relative;
+}
+
+.inner-content {
+  position: relative;
+  top: -69px;
+  right: -210px;
+}
+.inner-content span {
+  width: 190px;
+  background-color: #3763eb;
+  display: inline-block;
+  padding: 18px 0 15px 64px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+.inner-content img {
+  width: 11%;
+  position: absolute;
+  left: 6px;
+  bottom: 5px;
+  border-radius: 50%;
+}
+.banner-image:hover .inner-content span {
+  background-color: #fff;
+  border: 2px solid #3763eb;
+  color: #3763eb;
+}
+
+.banner-text strong {
+  margin: -10px 0 15px;
+  font-size: 18px;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.banner-text p {
+  color: #4d4b4b;
+}
+
+/* footer-section==== */
+.footer-section {
+  background-color: #111;
+  color: #fff;
+  padding: 85px 0 25px;
+}
+
+.footer-left-content {
+}
+.footer-left-content a img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+.footer-left-content ul {
+  padding: 0;
+}
+.footer-left-content ul li {
+  display: inline-block;
+  margin-top: 15px;
+}
+.footer-left-content ul li a {
+  font-size: 20px;
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+}
+.footer-left-content ul li a:hover {
+  color: #3361ed;
+}
+
+/* footer-right */
+.footer-right-content {
+}
+.footer-right-content h4 {
+  border-left: 3px solid #3763eb;
+  padding: 0 10px;
+  display: inline-block;
+}
+.footer-right-content ul {
+  padding: 0;
+  margin-top: 10px;
+}
+.footer-right-content ul li {
+  padding: 8px 0;
+}
+.footer-right-content ul li a {
+  color: #fff;
+  transition: 0.5s;
+}
+.footer-right-content ul li a:hover {
+  color: #3763eb;
+  letter-spacing: 1px;
+}
+.footer-bottom h5 {
+  font-weight: 400;
+  font-size: 15px;
+  border-top: 1px solid #dddddd75;
+  padding: 32px 0 0 0;
+  margin-top: 45px;
+}
